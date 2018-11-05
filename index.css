@@ -1,17 +1,25 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 11.7%)
+}
+
 .red {
   width: 150px;
   height: 150px;
   background-color: red;
+  grid-column: 0;
 }
 
 .blue {
   width: 150px;
-  height: 150px;
+  height: 200%;
   background-color: blue;
+  grid-column: 3;
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+  grid-column: 2;
 }
