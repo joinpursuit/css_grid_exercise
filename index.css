@@ -1,20 +1,26 @@
 
-* {
-  grid-column: 
+body {
+display: grid;
+grid-column: auto;
 }
+
 .red {
+  order: -1;
   width: 150px;
   height: 150px;
   background-color: red;
+
 }
 
 .blue {
+  order:1;
   width: 150px;
   height: 150px;
   background-color: blue;
 }
 
 .yellow {
+  order:0;
   width: 150px;
   height: 150px;
   background-color: yellow;
