@@ -1,16 +1,27 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(1,150px);
+  grid-template-rows: repeat(5, 150px);
+}
 .red {
+  grid-column: 1/1;
+  grid-row: 1/2;
   width: 150px;
   height: 150px;
   background-color: red;
 }
 
 .blue {
+  grid-column: 1/1;
+  grid-row: 7/10
   width: 150px;
   height: 150px;
   background-color: blue;
 }
 
 .yellow {
+  grid-column: 1/1;
+  grid-row: 2/3;
   width: 150px;
   height: 150px;
   background-color: yellow;
