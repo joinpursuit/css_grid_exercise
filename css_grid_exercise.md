@@ -1,6 +1,7 @@
 # CSS Grid
 
 Play [Grid Garden](https://cssgridgarden.com/) all the way through.
+//doing this game....
 
 Then, observe our `index.html` file. It should be familiar to you from your Flexbox assignment.
 
