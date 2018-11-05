@@ -1,6 +1,6 @@
 .squares {
   display: grid;
-  grid-template-columns: repeat(3, 33.33%);
+  grid-template-columns: repeat(3, 150px);
   grid-template-rows: repeat(3, 150px);
 }
 
@@ -60,7 +60,7 @@
 }
 
 .yellow#three {
-  grid-row: 1/end;
+  grid-row: 3/4;
   grid-column: 2/3;
 
   background-color: yellow;
