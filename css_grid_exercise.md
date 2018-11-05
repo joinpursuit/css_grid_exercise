@@ -15,3 +15,5 @@ Like our Flexbox assignment, please do this **without editing your HTML**.
 
 //
 https://css-tricks.com/snippets/css/complete-guide-grid/
+
+https://github.com/joinpursuit/css_grid_exercise
