@@ -1,13 +1,25 @@
+body {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows:
+  repeat(9, 1fr)
+  /* 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+
+}
+
 .red {
   width: 150px;
   height: 150px;
   background-color: red;
+  order: -1;
+
 }
 
 .blue {
   width: 150px;
   height: 150px;
   background-color: blue;
+  order: 1;
 }
 
 
@@ -15,4 +27,5 @@
   width: 150px;
   height: 150px;
   background-color: yellow;
+  order: 0;
 }
