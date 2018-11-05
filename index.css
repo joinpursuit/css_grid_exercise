@@ -3,6 +3,15 @@
   width: 150px;
   height: 150px;
   background-color: red;
+  order: -2;
+}
+
+
+.yellow {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  order: -1;
 }
 
 .blue {
@@ -11,8 +20,9 @@
   background-color: blue;
 }
 
-.yellow {
-  width: 150px;
-  height: 150px;
-  background-color: yellow;
+
+
+body{
+  display:grid;
+
 }
