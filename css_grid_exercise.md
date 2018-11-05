@@ -11,3 +11,7 @@ This time, it's your task to:
 - The order of colors should be as follows: red, yellow, blue.
 
 Like our Flexbox assignment, please do this **without editing your HTML**.
+
+
+//
+https://css-tricks.com/snippets/css/complete-guide-grid/
