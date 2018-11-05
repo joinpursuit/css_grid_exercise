@@ -1,17 +1,29 @@
+  *{
+    display: grid;
+  }
 .red {
   width: 150px;
   height: 150px;
   background-color: red;
+  order: 0;
+  grid-row: auto;
+  grid-column: 1;
 }
 
 .blue {
   width: 150px;
   height: 150px;
   background-color: blue;
+  order: 1;
+  grid-row: auto;
+  grid-column: 1;
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+  order: 2;
+  grid-row: auto;
+  grid-column: 1;
 }
