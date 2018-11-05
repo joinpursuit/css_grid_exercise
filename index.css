@@ -2,16 +2,32 @@
   width: 150px;
   height: 150px;
   background-color: red;
+  order: 0;
+  grid-column: 1;
+  grid-row: 3fr;
 }
 
 .blue {
   width: 150px;
   height: 150px;
   background-color: blue;
+  order: 2;
+  grid-column: 1;
+  grid-row: 3fr;
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+  order: 1;
+  grid-column: 1;
+  grid-row: 3fr;
+}
+
+body {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-rows: repeat(9, 150px);
+  grid-template-columns: 150px;
 }
