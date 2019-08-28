@@ -1,17 +1,28 @@
 .red {
+  display: grid;
   width: 150px;
   height: 150px;
   background-color: red;
 }
 
 .blue {
+  display: grid;
   width: 150px;
   height: 150px;
   background-color: blue;
 }
 
 .yellow {
+  display: grid;
   width: 150px;
   height: 150px;
   background-color: yellow;
+  grid-template-areas: initial;
+}
+
+.body {
+  display: grid;
+  grid-auto-columns:max-content;
+  grid-area: auto;
+
 }
