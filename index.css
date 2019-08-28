@@ -1,8 +1,14 @@
+.body {
+  display: grid;
+  grid-gap:20px;
+  grid-template-columns: 150px;
+}
 .red {
   display: grid;
   width: 150px;
   height: 150px;
   background-color: red;
+  order: 1;
 }
 
 .blue {
@@ -10,6 +16,7 @@
   width: 150px;
   height: 150px;
   background-color: blue;
+  order:3;
 }
 
 .yellow {
@@ -17,12 +24,5 @@
   width: 150px;
   height: 150px;
   background-color: yellow;
-  grid-template-areas: initial;
-}
-
-.body {
-  display: grid;
-  grid-auto-columns:max-content;
-  grid-area: auto;
-
+  order:2;
 }
