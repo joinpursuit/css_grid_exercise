@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+#container {
+    background-color: black;
+    display: grid;
+    grid-gap: 10px;
+}
+
+#a {
+    background-color: white;
+    height: 150px;
+    width: 200px;
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+
+#b {
+    background-color: white;
+    height: 150px;
+    width: 200px;
+    grid-column: 1/3;
+    grid-row: 4/8;
+}
+
+#c {
+    height: 150px;
+    width: 200px;
+    background-color: red;
+    grid-column: 3/10;
+    grid-row: 1/8;
+}
+
+#d {
+    height: 150px;
+    width: 200px;
+    background-color: blueviolet
+}
