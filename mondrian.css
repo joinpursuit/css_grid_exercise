@@ -1,0 +1,50 @@
+body {
+  display: grid;
+  /* grid-template-columns: 1fr 3fr 1fr; */
+  grid-template-columns: 5%;
+  grid-template-rows: 1fr 4fr;
+  /* grid-gap: 10px; */
+  background-color: white;
+}
+
+body > div > div{
+  position: absolute;
+  right:65%;
+  top: 25%;
+  /* border-radius: 5px; */
+  /* padding: 10px; */
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 2px solid red;
+
+  /* padding: 10px; */
+  background-color: blue;
+}
+
+#one {
+  grid-column: 3;
+  height: 350px;
+  width: 350px;
+  background-color: rgb(174, 164, 164);
+  transform: rotate(45deg);
+  grid-row-start: 2;
+}
+
+#two {
+  height: 200px;
+}
+
+#three {
+  transform: rotate(45deg);
+  height: 100px;
+  right: 55%;
+}
+
+#four {
+  transform: rotate(135deg);
+  height: 100px;
+  right: 55%;
+  top: 30%;
+}
+ 

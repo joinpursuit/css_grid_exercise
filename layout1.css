@@ -1,0 +1,48 @@
+body > div {
+  /* border-radius: 5px; */
+  padding: 50px;
+  /* border-radius: 5px; */
+  /* padding: 10px; */
+  background-color: yellow;
+}
+
+body {
+  display: grid;
+  /* grid-template-columns: 1fr 3fr 1fr; */
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+#two {
+  /* width: 100%;
+  height: 100%; */
+  grid-column: 3;
+  /* grid-column: 1 / 4; */
+}
+
+#three {
+  grid-column: 5;
+}
+
+#five {
+  grid-column: 2 / 4;
+}
+
+#six {
+  grid-column: 1;
+}
+
+#seven {
+  grid-column: 3;
+  grid-column: 3 / 5;
+  grid-row-end: span 2;
+}
+
+#eight {
+  grid-column: 5;
+}
+
+#nine {
+  grid-column: 1;
+}
