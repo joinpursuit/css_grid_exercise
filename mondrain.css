@@ -6,7 +6,7 @@ body {
 }
 .container {
     display: grid;
-    grid-template-columns: 1.2fr 5fr 1fr;
+    grid-template-columns: 1.8fr 5fr 1fr;
     grid-template-rows: 2fr 3fr 1fr 1fr;
     height: 100vh;
 }
