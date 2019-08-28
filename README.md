@@ -11,12 +11,3 @@
     - The order of colors should be as follows: red, yellow, blue.
     - Your end product should look like this
     ![9 squates in a column](assets/sample.png)
-
-## Bonus
-
-1. Create the HTML and CSS to replicate this layout on a page. Name your files `layout1.html` & `layout1.css`
-![grid layout to replicate](assets/grid_layout.png)
-
-2. Create the HTML and CSS to replicate a painting by [Mondrian](https://en.wikipedia.org/wiki/Piet_Mondrian). Pick a piece you like or use this one as a starting point. Name your files `mondrian.html` & `mondrian.css`
-
-![image of mondrian painting](assets/mondrian.png)

@@ -1,0 +1,57 @@
+
+#bigDiv div {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: yellow;
+}
+
+#bigDiv {
+    grid-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(4, 100px);
+}
+
+#one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#two {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#three {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#four {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#five {
+    grid-column: 2/4;
+    grid-row: 2;
+}
+
+#six {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#seven {
+    grid-column: 5;
+    grid-row: 1;
+}
+
+#eight {
+    grid-column: 5;
+    grid-row: 3;
+}
+
+#nine {
+    grid-area: 3 / 3 / 6 / 5;
+}
