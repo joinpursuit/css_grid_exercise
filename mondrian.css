@@ -1,0 +1,53 @@
+body {
+    display: grid;
+    grid-template: 227fr 306fr 90fr 89fr / 154fr 488.5fr 82fr;
+    grid-gap: 12.66666666666px;
+    background-color: black;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+}
+
+div {
+    background-color: white;
+}
+
+#a {
+    grid-area: 1/1;
+    /* grid-area: 2/2; */
+}
+
+#b {
+    grid-area: 2/1;
+    /* grid-area: 3/2; */
+}
+
+#c {
+    background-color: red;
+    grid-area: 1/2/3/4;
+    /* grid-area: 2/3/4/5; */
+}
+
+#d {
+    background-color: blue;
+    grid-area: 3/1/5/2;
+    /* grid-area: 4/2/6/3; */
+}
+
+#e {
+    grid-area: 3/2/5/3;
+    /* grid-area: 4/3/6/4; */
+}
+
+#f {
+    grid-area: 3/3/4/4;
+    /* grid-area: 4/4/5/5; */
+}
+
+#g {
+    background-color: yellow;
+    grid-area: 4/3/5/4;
+    /* grid-area: 5/4/6/5; */
+}
