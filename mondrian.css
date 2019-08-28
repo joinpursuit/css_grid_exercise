@@ -1,0 +1,51 @@
+/* 8x8 */
+.white {
+    background-color: white;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+
+#main {
+    background-color: black;
+    display: grid;
+    grid-template: repeat(21, 20px) / repeat(21, 20px);
+    grid-gap: 10px;
+    border: 1px black solid;
+    width: 620px;
+}
+
+#a {
+    grid-row: 1/8;
+    grid-column: 1/6;
+}
+#b {
+    grid-row: 8/16;
+    grid-column: 1/6;
+}
+#c {
+    grid-row: 1/16;
+    grid-column: 6/22;
+}
+#d{
+    grid-row: 16/22;
+    grid-column: 1/6;
+}
+#e {
+    grid-row: 16/22;
+    grid-column: 6/19;
+}
+#f {
+    grid-row: 16/19;
+    grid-column: 19/22;
+}
+#g {
+    grid-row: 19/22;
+    grid-column: 19/22;
+}
