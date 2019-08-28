@@ -1,0 +1,21 @@
+/* Joseph P. Pasaoa
+*/
+
+body {
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid: 3fr 4fr 3fr / 2fr 8fr 1fr;
+  grid-gap: 12px;
+  background-color: black;
+}
+
+div {
+  text-align: center;
+  background-color: yellow;
+  min-width: 150px;
+  min-height: 150px;
+  width: auto;
+  height: auto;
+}
+

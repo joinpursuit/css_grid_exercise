@@ -1,0 +1,44 @@
+/* Joseph P. Pasaoa
+*/
+
+body {
+  display: grid;
+  grid: repeat(4, 1fr) / repeat(5, 1fr);
+  grid-gap: 25px;
+}
+
+div {
+  background-color: yellow;
+  min-width: 150px;
+  min-height: 150px;
+  width: auto;
+  height: auto;
+}
+
+#two {
+  grid-column: 3;
+}
+
+#three {
+  grid-column: 5;
+}
+
+#five {
+  grid-column: 2 / span 2;
+}
+
+#six {
+  grid-column: 1;
+}
+
+#seven {
+  grid-area: 3 / 3 / 5 / 5;
+}
+
+#eight {
+  grid-area: 4 / 1;
+}
+
+#nine {
+  grid-column: 5;
+}
