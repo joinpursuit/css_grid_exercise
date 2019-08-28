@@ -2,20 +2,50 @@
 */
 
 body {
+
+}
+
+#grid-container {
   width: 600px;
   height: 600px;
   display: grid;
-  grid: 3fr 4fr 3fr / 2fr 8fr 1fr;
-  grid-gap: 12px;
+  grid-template-columns: 1fr 3fr 75px; /*3fr 4fr 3fr / */
+  grid-template-rows: 3fr 4fr 75px 75px;
+  grid-gap: 11px;
   background-color: black;
 }
 
-div {
+#grid-container div {
   text-align: center;
-  background-color: yellow;
-  min-width: 150px;
-  min-height: 150px;
+  background-color: orange;
+  /* min-width: 150px;
+  min-height: 150px; */
   width: auto;
   height: auto;
 }
 
+div#a, div#b, div#e, div#f {
+  background-color: white;
+}
+
+div#b {
+  grid-area: 2 / 1;
+}
+
+div#c {
+  background-color: red;
+  grid-area: 1 / 2 / span 2 / span 2;
+}
+
+div#d {
+  background-color: blue;
+  grid-area: 3 / 1 / span 2 / 2;
+}
+ 
+div#e {
+  grid-area: 3 / 2 / -1 / -2;
+}
+
+div#g {
+  background-color: yellow;
+} */
