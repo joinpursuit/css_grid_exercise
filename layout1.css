@@ -1,0 +1,42 @@
+.yellow {
+    background-color: yellow;
+}
+
+#main {
+    display: grid;
+    grid-template: repeat(4, 150px) / repeat(5, 150px);
+    grid-gap: 10px;
+    border: 3px black solid;
+    width: 790px;
+}
+
+#div2 {
+    grid-column: 3;
+}
+#div3 {
+    grid-column: 5;
+}
+#div4 {
+    grid-row: 2;
+    grid-column: 1;
+}
+#div5 {
+    grid-row: 2;
+    grid-column: 2/4;
+}
+#div6 {
+    grid-row: 3;
+    grid-column: 1;
+}
+#div7 {
+    grid-row: 3/5;
+    grid-column: 3/5;
+}
+#div8 {
+    grid-row: 3;
+    grid-column: 5;
+}
+#div9 {
+    grid-row: 4;
+    grid-column: 1;
+}
