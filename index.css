@@ -1,17 +1,26 @@
 .red {
   width: 150px;
   height: 150px;
+  order: 1;
   background-color: red;
 }
 
 .blue {
   width: 150px;
   height: 150px;
+  order: 3;
   background-color: blue;
 }
 
 .yellow {
   width: 150px;
   height: 150px;
+  order: 2;
   background-color: yellow;
+}
+
+body {
+	display: grid;
+	grid-gap: 10px;
+
 }

@@ -1,0 +1,20 @@
+body {
+	display: grid;
+	grid-template: repeat(5, 20%) / repeat(5, 20%);
+	grid-gap: 20px;
+	height: 800px;
+	width: 100%;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.white {
+	background-color: white;
+}
+
+.yellow-block{
+	grid-column: 2 / 4;
+	background-color: yellow;
+}
