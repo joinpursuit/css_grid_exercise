@@ -10,7 +10,6 @@
   height: 150px;
   background-color: blue;
   order: 1
-
 }
 
 .yellow {
@@ -24,5 +23,5 @@ body {
   display: grid;
   grid-template-columns: 150px;
   grid-gap: 20px;
- 
+
 }
