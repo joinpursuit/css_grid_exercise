@@ -1,17 +1,29 @@
+body {
+  display: grid;
+  grid-gap:0px;
+  grid-template-columns: 150px;
+}
+
 .red {
+  display: grid;
+  order: 1;
+  background-color: red;
   width: 150px;
   height: 150px;
-  background-color: red;
 }
 
 .blue {
+  display: grid;
+  order:3;
+  background-color: blue;
   width: 150px;
   height: 150px;
-  background-color: blue;
 }
 
 .yellow {
+  display: grid;
+  order:2;
+  background-color: yellow;
   width: 150px;
   height: 150px;
-  background-color: yellow;
 }
