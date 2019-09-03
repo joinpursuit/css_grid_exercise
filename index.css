@@ -2,16 +2,24 @@
   width: 150px;
   height: 150px;
   background-color: red;
+  order:1
 }
 
 .blue {
   width: 150px;
   height: 150px;
   background-color: blue;
+  order:2;
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+  order:3;
+}
+body{
+    display: grid ;
+    grid-template-columns:auto;
+   grid-row-gap: 10px;
 }
