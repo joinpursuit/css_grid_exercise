@@ -1,0 +1,37 @@
+strong {
+    background: yellow;
+    padding: 10px;
+    display: none;
+}
+div {
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.first {
+    background: green;
+}
+.second {
+    background: red;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+.outer-container {
+    position: relative;
+}
+.third {
+    background: yellow;
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+}
+.fourth {
+    background: pink;
+    z-index: 1;
+}
+.fifth {
+    background: lightblue;
+}
