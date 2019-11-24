@@ -1,0 +1,57 @@
+.yellow {
+    height: 100%;
+    grid-gap: 10px;
+    display: grid;
+    grid-template: repeat(4, minmax(150px, auto)) / repeat(5, 1fr);
+    grid-template-areas: 
+    "a . b . c"
+    "d e e . ."
+    "f . g g h"
+    "i . g g .";
+}
+
+.yellow div {
+    width: auto;
+    height: minmax(150px, auto);
+    background-color: yellow;
+}
+
+#one {
+    grid-area: a;
+}
+
+#two {
+    grid-area: b;
+}
+
+#three {
+    grid-area: c;
+}
+
+#four {
+    grid-area: d;
+}
+
+#five {
+    grid-area: e;
+}
+
+#six {
+    grid-area: f;
+}
+
+#seven {
+    grid-area: g;
+}
+
+#eight {
+    grid-area: h;
+}
+
+#nine {
+    grid-area: i;
+}
+
+/* #ten {
+    grid-area: j;
+} */
