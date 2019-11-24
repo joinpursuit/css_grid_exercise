@@ -1,0 +1,10 @@
+body {
+  display: grid;
+  grid-column: 50px;
+  grid-gap: 20px
+}
+div {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+}
