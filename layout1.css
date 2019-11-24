@@ -1,27 +1,32 @@
-.red {
+/* .red {
   width: 150px;
   height: 150px;
   background-color: red;
- 
+  order: 0;
 }
 
 .blue {
   width: 150px;
   height: 150px;
   background-color: blue;
-  
-}
+  order: 0;
+} */
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
-  
+  order: 0;
 }
-body {
+/* body {
   display: flex;
-  flex-direction: row;
   display: grid;
   grid-gap: 5px;
-  grid-template-rows: 1 / span 5 ;
+  grid-template: ;
+} */
+.c1 { 
+  display: flex;
+  display:grid;
+  grid-gap: 5px
+
 }
