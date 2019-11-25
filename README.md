@@ -81,7 +81,7 @@ index.css
 ![grid layout to replicate](assets/grid_layout.png)
 
 ```
-html
+layout. html 
 ```
 ```
 <!DOCTYPE html>
