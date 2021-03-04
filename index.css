@@ -1,3 +1,9 @@
+body {
+  display: grid;
+  grid-column: 1;
+  grid-gap: 10px;
+}
+
 .red {
   width: 150px;
   height: 150px;
@@ -8,10 +14,12 @@
   width: 150px;
   height: 150px;
   background-color: blue;
+  order: 2;
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+  order: 1;
 }
