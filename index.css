@@ -8,10 +8,17 @@
   width: 150px;
   height: 150px;
   background-color: blue;
+  order: 2;
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+  order: 1;
+}
+
+body {
+  display: grid;
+  gap: 15px;
 }
