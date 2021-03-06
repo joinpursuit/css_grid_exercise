@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+
+#parent {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 6fr 1fr;
+    grid-template-rows: 2fr 3fr .75fr .75fr;
+    gap: 10px;
+    grid-template-areas: 
+    "a c c"
+    "b c c"
+    "d e f"
+    "d e g";
+}
+
+.a, .b, .e, .f {
+    background-color: white;
+}
+
+.a {
+    grid-area: a;
+}
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+    background-color: red;
+}
+
+.d {
+    grid-area: d;
+    background-color: blue;
+}
+
+.e {
+    grid-area: e;
+}
+
+.f {
+    grid-area: f;
+}
+
+.g {
+    grid-area: g;
+    background-color: yellow;
+}
+
+
+
+
+
