@@ -1,0 +1,68 @@
+.container div {
+  border-radius: 5px;
+  padding: 10px;
+}
+.container {
+  height: 650px;
+  width: 650px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.yellow1 {
+  margin-top: 20px;
+  background-color: yellow;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.yellow2 {
+  margin-top: 20px;
+  background-color: yellow;
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.yellow3 {
+  margin-top: 20px;
+  background-color: yellow;
+  grid-column: 5;
+}
+.yellow4 {
+  margin-top: 20px;
+  background-color: yellow;
+  grid-column: 1;
+  grid-row: 2;
+}
+.yellow5 {
+  margin-top: 20px;
+  background-color: yellow;
+  grid-column: 2/4;
+  grid-row: 2;
+}
+.yellow6 {
+  margin-top: 20px;
+  background-color: yellow;
+  grid-column: 1;
+  grid-row: 3;
+}
+.yellow7 {
+  margin-top: 20px;
+  background-color: yellow;
+  grid-column: 3/5;
+  grid-row: 3/5;
+}
+.yellow8 {
+  margin-top: 20px;
+  background-color: yellow;
+  grid-column: 5;
+  grid-row: 3;
+}
+.yellow9 {
+  margin-top: 20px;
+  background-color: yellow;
+  grid-row: 4;
+  grid-column: 1;
+}
