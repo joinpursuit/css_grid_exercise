@@ -1,0 +1,38 @@
+.squares {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.squares div {
+    min-width: 150px;
+    min-height: 150px;
+    background-color: yellow;
+}
+
+.one, .four, .six, .nine {
+    grid-column: 1 / 2;
+} 
+
+.two {
+    grid-column: 3 / 4;
+}
+
+.three{
+    grid-column: 5 / 6;
+}
+
+.five {
+    grid-column: 2 / 4;
+}
+
+.seven {
+    grid-row: 3 / 5;
+    grid-column: 3 / 5;
+}
+
+.eight {
+    grid-row: 3 / 4;
+    grid-column: 5 / 6;
+}
