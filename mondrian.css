@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 5px;
+    grid-template-rows: repeat(8,1fr)
+  }
+
+  .child {
+    padding: 10px;
+    background-color: lightblue;
+    border: 2px solid rgb(2, 1, 1);
+}
+
+.a {
+    background-color: white;
+    grid-row: 1/8;
+}
+
+.c {
+    background-color: red;
+    grid-column: 2/7;
+    grid-row: 1/6;
+}
+.b {
+    background-color: white;
+    grid-row: 8/16;
+    grid-column: 1/2;
+}
+
+.d {
+    background-color: blue;
+    grid-row: 8/10;
+    grid-column: 1/2;
+}
+
+.e {
+    background-color: white;
+    grid-column: 2/6;
+    grid-row: 6/10;
+}
+
+.f {
+    background-color: white;
+    grid-row: 6/8;
+}
+
+.g {
+    background-color: yellow;
+    grid-row: 8/10;
+}
