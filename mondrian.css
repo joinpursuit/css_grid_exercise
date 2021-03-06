@@ -1,6 +1,5 @@
 .container {
     display: grid;
-    /* gap: 20px; */
     grid-template-columns: repeat(3, 100px 300px 80px);
     grid-template-rows: repeat(4, 150px 225px 65px 65px );
     font-weight: bold;
@@ -55,7 +54,6 @@
     grid-column: 2/3;
     grid-row: 3/5;
     border-bottom: none;
-    /* width: 30px; */
 }
 
 .f {
