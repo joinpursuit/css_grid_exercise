@@ -1,0 +1,58 @@
+body {
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(5, 1fr);
+    gap: 1rem;
+    height: 100vh;
+}
+
+.yellow {
+    width: auto;
+    height: auto;
+    background-color: yellow;
+}
+
+.one {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.two {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.three {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.four {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.five {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.six {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.seven {
+    grid-column: 3/5;
+    grid-row: 3/5;
+}
+
+.eight {
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+
+.nine {
+    grid-column: 5/6;
+    grid-row: 3/4;
+}
+
