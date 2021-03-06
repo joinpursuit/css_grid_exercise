@@ -1,17 +1,35 @@
-.red {
-  width: 150px;
-  height: 150px;
-  background-color: red;
-}
+.red{
+    background-color: red;
+   height: 50px;
+   width: 50px;
+   order: -1;
 
-.blue {
-  width: 150px;
-  height: 150px;
-  background-color: blue;
 }
-
-.yellow {
-  width: 150px;
-  height: 150px;
-  background-color: yellow;
+.yellow{
+    background-color: yellow;
+    height:50px;
+    width: 50px;
+    order: 1;
+}
+.blue{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    order: 2;
+}
+.color{
+    display: flex;
+    margin-top: 5px;
+    height: 500px;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 5px;
+    
+}
+@media screen and(max-width: 800px){
+    .color{
+        width: 100%;
+        min-height: 150px;
+        max-width: 300px;
+    }
 }
