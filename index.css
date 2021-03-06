@@ -1,17 +1,32 @@
+body {
+  /* display: flex; */
+  display: grid;
+  /* flex-direction: column; */
+  /* justify-content: space-evenly; */
+  /* grid-template-columns: repeat(8, 1fr); */
+  /* grid-template-rows: repeat(10, 1fr); */
+  gap: 1rem;
+}
+
+
 .red {
   width: 150px;
   height: 150px;
   background-color: red;
+  order: -1
 }
 
 .blue {
   width: 150px;
   height: 150px;
   background-color: blue;
+  order: 1;
+
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+  order: 0
 }
