@@ -1,0 +1,65 @@
+html {
+    background-color: black;
+}
+#container {
+    display: grid;
+    border: 5px solid black;
+    width: 600px;
+    height: 600px;
+    grid-template-columns: 120px 405px 75px;
+    grid-template-rows: 200px 250px repeat(2,75px);
+    gap: 10px;
+}
+
+.child {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+.a {
+    height: 200px;
+    width: 120px;
+}
+
+.b {
+    height: 250px;
+    width: 120px;
+    grid-column: 1 / 2;
+}
+
+.c {
+    background-color: red;
+    height: 450px;
+    width: 475px;
+    grid-column: 2 / 4;
+    grid-row: 1 / 4
+}
+
+.d {
+    background-color: blue;
+    height: 150px;
+    width: 120px;
+    grid-column: 1 / 2;
+}
+
+.e {
+    width: 405px;
+    grid-column: 2 / 3;
+    grid-row: 3 / 5;
+}
+
+.f {
+    width: 75px;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+.g {
+    background-color: yellow;
+    width: 75px;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}

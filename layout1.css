@@ -1,3 +1,7 @@
+/* Made entirely out of pixels. I knew black gap was going to be an issue, so I decided to throw it in at 
+the end. Lo and behold, when an element traverses beyond one column or row, the gap space gets pushed 
+to the end, after the element. */
+
 .child {
     background-color: yellow;
     width: 150px;
