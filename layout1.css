@@ -1,0 +1,73 @@
+.child {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+
+#container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 150px);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+/* Border-right/left passes through the gap properly, but the border-bottom, or change of height only changes the height of every row in the entire grid */
+
+.one {
+    
+}
+.two {
+    grid-column: 3 / 4;
+}
+.three{
+    grid-column: 5 / 6;
+}
+.four{
+
+}
+.five {
+    border-right: 20px solid yellow;
+    /* width: 170px; */
+}
+.six {
+
+}
+.seven {
+    grid-row: 3 / 4;
+}
+.eight {
+    grid-area: 3 / 3 / 5 / 5;
+    /* grid-column: 3 / 5;
+    grid-row: 3 / 5; */
+    width: 320px;
+    height: 320px;
+    /* grid-row: 3 / 4;
+    grid-column: 3 / 4; */
+    /* border-bottom: 20px solid yellow; */
+    /* height: 170px;   this doesn't work, it stretches out the height for every child, plus doesn't pass through the empty gap*/
+    
+}
+.nine {
+    grid-area: 3 / 5 / 4 / 6;
+}
+.ten {
+    grid-area: 4 / 1 / 5 / 2;
+}
+
+/* Was not able to use the rest of the children. The original plan I had to plot 13 children connected by colored borders on the
+   side where they take up more than one grid area does not work, because the border stretches the grid square height for each 
+   square in the entire grid */
+
+.eleven {
+    grid-row: 4 / 5;
+}
+.twelve {
+    grid-row: 4 / 5;
+    grid-column: 3 / 4;
+}
+.thirteen {
+    grid-row: 4 / 5;
+    grid-column: 4 / 5;
+}
