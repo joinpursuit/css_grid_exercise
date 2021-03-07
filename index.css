@@ -1,7 +1,15 @@
+body{
+  display: grid;
+  grid-template-columns: 150px;
+  grid-template-rows: repeat(9, 1fr);
+  gap: 5px;
+}
 .red {
   width: 150px;
   height: 150px;
   background-color: red;
+  order:-1;
+
 }
 
 .blue {
@@ -14,4 +22,5 @@
   width: 150px;
   height: 150px;
   background-color: yellow;
+  order:1;
 }
