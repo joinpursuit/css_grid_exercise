@@ -1,0 +1,60 @@
+.child {
+    background-color: #ffff00;
+   
+}
+
+#parent {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 15px;
+}
+
+#one {
+    grid-area: one;
+}
+
+#two {
+    grid-area: two;
+}
+
+#three {
+    grid-area: three;
+}
+
+#four {
+    grid-area: four;
+}
+
+#five {
+    grid-area: five;
+}
+
+#six {
+    grid-area: six;
+}
+
+#seven {
+    grid-area: seven;
+}
+
+#eight {
+    grid-area: eight;
+}
+
+#nine {
+    grid-area: nine;
+}
+
+#parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    grid-template-areas: 
+        "one . two . three"
+        "four five five . ."
+        "six . seven seven eight"
+        "nine . seven seven .";
+} 
