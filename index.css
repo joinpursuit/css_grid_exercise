@@ -1,16 +1,25 @@
+body {
+  display: grid;
+  grid-template-columns: 150px;
+  gap: 10px;
+}
+
 .red {
+  order: 0;
   width: 150px;
   height: 150px;
   background-color: red;
 }
 
 .blue {
+  order: 2;
   width: 150px;
   height: 150px;
   background-color: blue;
 }
 
 .yellow {
+  order: 1;
   width: 150px;
   height: 150px;
   background-color: yellow;
