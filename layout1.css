@@ -1,0 +1,77 @@
+body{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 2fr;
+    gap: 30px;
+    margin: 30px;
+    padding: 10px;
+
+}
+
+.yellow{
+    
+    background-color: yellow;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+.white{
+  
+    min-width: 150px;
+    min-height: 150px;
+     
+}
+
+.doubleYellow{
+    display: grid;
+    background-color: yellow;
+    min-height: 150px;
+    grid-column: 2 / 4
+    
+}
+
+
+.quadraYellow{
+    display: grid;
+    background-color: yellow;
+    grid-area: 1 / 1 / 3 / 2;
+    
+}
+
+
+
+.first{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(150px, auto));
+    grid-row: 1 /2;
+    gap: 30px;
+   
+}
+
+.second{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(150px, auto));
+    grid-row: 2 /3;
+    gap: 30px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-row: 3 /4;
+    gap: 30px;
+}
+
+.third{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
+
+.fourth{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}
